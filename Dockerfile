@@ -30,6 +30,7 @@ RUN chmod +x /etc/local.d/custom.start
 RUN rm /etc/nginx/http.d/default.conf
 COPY nginx.conf /etc/nginx/http.d/
 
+EXPOSE 80
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
