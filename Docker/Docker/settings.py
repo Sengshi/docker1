@@ -128,3 +128,9 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# CSRF_COOKIE_SECURE = True
+CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = ['http://localhost:1111']
+# ALLOWED_ORIGINS = ['http://*']
+# CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
